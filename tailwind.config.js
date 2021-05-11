@@ -14,6 +14,9 @@ module.exports = {
       fontFamily: {
         sans: ['Plus Jakarta Display'],
       },
+      colors: {
+        'obsidian-black': '#0d0e10',
+      },
     },
   },
   variants: {
