@@ -1,5 +1,4 @@
 module.exports = {
-  mode: 'jit',
   purge: {
     content: [
       './pages/**/*.{js,ts,jsx,tsx}',
@@ -11,7 +10,11 @@ module.exports = {
   },
   darkMode: 'media', // or 'false' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Plus Jakarta Display'],
+      },
+    },
   },
   variants: {
     extend: {},
