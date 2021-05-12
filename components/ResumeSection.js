@@ -37,12 +37,15 @@ export default function ResumeSection() {
                 October 2020 - December 2020
               </p>
             </div>
+            <h3 className="mb-12 text-3xl font-normal">Previous Education</h3>
             <div
               id="item"
               className="mb-12 duration-200 transform cursor-pointer group hover:translate-x-2"
             >
               <div className="flex">
-                <h4 className="mb-5 text-2xl font-medium">Le Wagon - Paris</h4>
+                <h4 className="mb-5 text-2xl font-medium">
+                  Sorbonne Université - Paris
+                </h4>
                 <div className="duration-200 transform group-hover:translate-x-1 group-hover:-translate-y-1">
                   <svg
                     width="24"
@@ -58,10 +61,10 @@ export default function ResumeSection() {
                 </div>
               </div>
               <div className="mb-4 text-base font-medium tracking-wide">
-                Coding Bootcamp
+                Bachelor degree in Music and Musicology
               </div>
               <p className="font-light text-gray-600">
-                October 2020 - December 2020
+                September 2016 - June 2019
               </p>
             </div>
             <div
@@ -69,7 +72,9 @@ export default function ResumeSection() {
               className="mb-12 duration-200 transform cursor-pointer group hover:translate-x-2"
             >
               <div className="flex">
-                <h4 className="mb-5 text-2xl font-medium">Le Wagon - Paris</h4>
+                <h4 className="mb-5 text-2xl font-medium">
+                  Regional conservatory of Paris
+                </h4>
                 <div className="duration-200 transform group-hover:translate-x-1 group-hover:-translate-y-1">
                   <svg
                     width="24"
@@ -85,11 +90,97 @@ export default function ResumeSection() {
                 </div>
               </div>
               <div className="mb-4 text-base font-medium tracking-wide">
-                Coding Bootcamp
+                Superior Department for Lyrical Singers
               </div>
               <p className="font-light text-gray-600">
-                October 2020 - December 2020
+                September 2016 - December 2016
               </p>
+            </div>
+          </div>
+          <div id="second-column">
+            <h3 className="mb-12 text-3xl font-normal">Online courses</h3>
+            <div
+              id="item"
+              className="mb-12 duration-200 transform cursor-pointer group hover:translate-x-2"
+            >
+              <div className="flex">
+                <h4 className="mb-5 text-2xl font-medium">Pluralsight</h4>
+                <div className="duration-200 transform group-hover:translate-x-1 group-hover:-translate-y-1">
+                  <svg
+                    width="24"
+                    height="24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16.004 9.414l-8.607 8.607-1.414-1.414L14.589 8H7.004V6h11v11h-2V9.414z"
+                      fill="#0D0E10"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div className="mb-4 text-base font-medium tracking-wide">
+                React track
+              </div>
+              <p className="font-light text-gray-600">April 2021</p>
+            </div>
+
+            <div
+              id="item"
+              className="mb-12 duration-200 transform cursor-pointer group hover:translate-x-2"
+            >
+              <div className="flex">
+                <h4 className="mb-5 text-2xl font-medium">
+                  Javascript for Beginners
+                </h4>
+                <div className="duration-200 transform group-hover:translate-x-1 group-hover:-translate-y-1">
+                  <svg
+                    width="24"
+                    height="24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16.004 9.414l-8.607 8.607-1.414-1.414L14.589 8H7.004V6h11v11h-2V9.414z"
+                      fill="#0D0E10"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div className="mb-4 text-base font-medium tracking-wide">
+                Wes Bos' course on Javascript
+              </div>
+              <p className="font-light text-gray-600">
+                January 2021 - February 2021
+              </p>
+            </div>
+
+            <h3 className="mb-12 text-3xl font-normal">Pre-bootcamp</h3>
+
+            <div
+              id="item"
+              className="mb-12 duration-200 transform cursor-pointer group hover:translate-x-2"
+            >
+              <div className="flex">
+                <h4 className="mb-5 text-2xl font-medium">OpenClassrooms</h4>
+                <div className="duration-200 transform group-hover:translate-x-1 group-hover:-translate-y-1">
+                  <svg
+                    width="24"
+                    height="24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16.004 9.414l-8.607 8.607-1.414-1.414L14.589 8H7.004V6h11v11h-2V9.414z"
+                      fill="#0D0E10"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div className="mb-4 text-base font-medium tracking-wide">
+                Python course
+              </div>
+              <p className="font-light text-gray-600">March 2020 - June 2020</p>
             </div>
           </div>
         </div>
