@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Project from './Project';
 
 export default function WorkSection() {
   return (
@@ -26,77 +27,33 @@ export default function WorkSection() {
         <div className="grid grid-cols-2 gap-10 px-6">
           {/* first column */}
           <div>
-            <div className="mb-16">
-              <Image
-                src="/images/project-image.png"
-                alt="Picture of the author"
-                width={510}
-                height={570}
-              />
-              <div className="pt-6">
-                <h4 className="mb-4 text-2xl font-medium text-obsidian-black">
-                  Jobriver
-                </h4>
-                <p className="mb-3 text-base text-gray-700">
-                  Jobriver is a Polish employment platform. It often helps
-                  developers to find a job that suits them easily by filtering!
-                </p>
-              </div>
-            </div>
-            <div className="mb-16">
-              <Image
-                src="/images/project-image.png"
-                alt="Picture of the author"
-                width={510}
-                height={570}
-              />
-              <div className="pt-6">
-                <h4 className="mb-4 text-2xl font-medium text-obsidian-black">
-                  Jobriver
-                </h4>
-                <p className="mb-3 text-base text-gray-700">
-                  Jobriver is a Polish employment platform. It often helps
-                  developers to find a job that suits them easily by filtering!
-                </p>
-              </div>
-            </div>
+            <Project
+              src="/images/project-image.png"
+              title="Jobriver"
+              description="Jobriver is a Polish employment platform. It often helps
+              developers to find a job that suits them easily by filtering!"
+            />
+            <Project
+              src="/images/project-image.png"
+              title="Jobriver"
+              description="Jobriver is a Polish employment platform. It often helps
+              developers to find a job that suits them easily by filtering!"
+            />
           </div>
           {/* second column */}
           <div className="pt-40">
-            <div className="mb-16">
-              <Image
-                src="/images/project-image.png"
-                alt="Picture of the author"
-                width={510}
-                height={570}
-              />
-              <div className="pt-6">
-                <h4 className="mb-4 text-2xl font-medium text-obsidian-black">
-                  Jobriver
-                </h4>
-                <p className="mb-3 text-base text-gray-700">
-                  Jobriver is a Polish employment platform. It often helps
-                  developers to find a job that suits them easily by filtering!
-                </p>
-              </div>
-            </div>
-            <div className="mb-16">
-              <Image
-                src="/images/project-image.png"
-                alt="Picture of the author"
-                width={510}
-                height={570}
-              />
-              <div className="pt-6">
-                <h4 className="mb-4 text-2xl font-medium text-obsidian-black">
-                  Jobriver
-                </h4>
-                <p className="mb-3 text-base text-gray-700">
-                  Jobriver is a Polish employment platform. It often helps
-                  developers to find a job that suits them easily by filtering!
-                </p>
-              </div>
-            </div>
+            <Project
+              src="/images/project-image.png"
+              title="Jobriver"
+              description="Jobriver is a Polish employment platform. It often helps
+              developers to find a job that suits them easily by filtering!"
+            />
+            <Project
+              src="/images/project-image.png"
+              title="Jobriver"
+              description="Jobriver is a Polish employment platform. It often helps
+              developers to find a job that suits them easily by filtering!"
+            />
           </div>
         </div>
       </div>
