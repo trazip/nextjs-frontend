@@ -3,8 +3,14 @@ import Image from 'next/image';
 
 export default function Project({ src, title, description }) {
   return (
-    <div className="mb-16">
-      <Image src={src} alt="Picture of the project" width={510} height={570} />
+    <div className="mb-16 cursor-pointer group">
+      <Image
+        src={src}
+        alt="Picture of the project"
+        width={510}
+        height={570}
+        className="duration-500 transform group-hover:scale-110"
+      />
       <div className="pt-6">
         <h4 className="mb-4 text-2xl font-medium text-obsidian-black">
           {title}
