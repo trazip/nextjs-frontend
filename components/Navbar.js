@@ -9,18 +9,18 @@ export default function Navbar() {
       >
         <div id="nav-right" className="flex items-stretch justify-end w-full">
           <div id="nav-menu" className="flex items-center">
-            <div id="link" className="px-8 py-5">
+            <a href="#resume-section" className="px-8 py-5">
               Resume
-            </div>
-            <div id="link" className="px-8 py-5">
+            </a>
+            <a href="#work-section" className="px-8 py-5">
               Work
-            </div>
-            <div id="link" className="px-8 py-5">
+            </a>
+            <a href="#" className="px-8 py-5">
               Experiments
-            </div>
-            <div id="link" className="px-8 py-5">
+            </a>
+            <a href="#" className="px-8 py-5">
               Contact
-            </div>
+            </a>
           </div>
         </div>
       </div>

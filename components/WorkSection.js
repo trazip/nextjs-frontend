@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import Project from './Project';
 
 export default function WorkSection() {
@@ -39,6 +38,12 @@ export default function WorkSection() {
               description="Jobriver is a Polish employment platform. It often helps
               developers to find a job that suits them easily by filtering!"
             />
+            {/* <a
+              href="https://github.com/trazip"
+              className="py-6 text-sm font-normal text-white rounded-full px-14 bg-obsidian-black"
+            >
+              <span className="font-medium">@TRAZIP</span> ON GITHUB
+            </a> */}
           </div>
           {/* second column */}
           <div className="pt-40">

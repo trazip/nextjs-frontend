@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
+// eslint-disable-next-line react/prop-types
 export default function Project({ src, title, description }) {
   return (
     <div className="mb-16 cursor-pointer group">
