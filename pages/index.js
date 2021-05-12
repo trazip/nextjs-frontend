@@ -2,6 +2,7 @@ import Head from 'next/head';
 import HeroSection from '../components/HeroSection';
 import Navbar from '../components/Navbar';
 import ResumeSection from '../components/ResumeSection';
+import WorkSection from '../components/WorkSection';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       </header>
       <main />
       <ResumeSection />
+      <WorkSection />
       <footer />
     </div>
   );

@@ -3,7 +3,7 @@ import React from 'react';
 // eslint-disable-next-line react/prop-types
 export default function EducationItem({ url, title, subtitle, date }) {
   return (
-    <a href={url}>
+    <a href={url} target="_blank" rel="noreferrer">
       <div
         id="item"
         className="mb-12 duration-200 transform cursor-pointer group hover:translate-x-2"

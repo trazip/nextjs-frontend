@@ -51,7 +51,7 @@ export default function ResumeSection() {
 
             <div className="mb-12">
               <h3 className="relative z-20 text-3xl font-normal">
-                Previous Education
+                Previous education
               </h3>
               <svg
                 width="258"
