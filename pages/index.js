@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 import Navbar from '../components/Navbar';
 import ResumeSection from '../components/ResumeSection';
@@ -19,7 +20,9 @@ export default function Home() {
       <main />
       <ResumeSection />
       <WorkSection />
-      <footer />
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
