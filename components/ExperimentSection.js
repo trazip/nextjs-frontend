@@ -62,7 +62,7 @@ export default function ExperimentSection() {
 
   return (
     <div ref={ref}>
-      <div className="flex items-center justify-center h-screen p-16 bg-green-grass">
+      <div className="relative flex items-center justify-center h-screen p-16 overflow-hidden bg-green-grass">
         <div className="flex items-center justify-center">
           <motion.img
             style={{
@@ -71,7 +71,7 @@ export default function ExperimentSection() {
               y: yPosAnim1,
             }}
             src="/images/image_01.jpeg"
-            className="absolute w-1/2 transform -translate-y-6"
+            className="absolute w-1/2"
             alt=""
           />
           <motion.img
@@ -81,7 +81,7 @@ export default function ExperimentSection() {
               x: xPosAnim2,
             }}
             src="/images/image_02.jpeg"
-            className="absolute w-1/2 transform -translate-y-6"
+            className="absolute w-1/2"
             alt=""
           />
           <motion.img
@@ -92,7 +92,7 @@ export default function ExperimentSection() {
               y: yPosAnim3,
             }}
             src="/images/image_03.jpeg"
-            className="absolute w-1/2 transform -translate-y-6"
+            className="absolute w-1/2"
             alt=""
           />
           <motion.img
@@ -103,7 +103,7 @@ export default function ExperimentSection() {
               y: yPosAnim4,
             }}
             src="/images/image_04.jpeg"
-            className="absolute w-1/2 transform -translate-y-6"
+            className="absolute w-1/2"
             alt=""
           />
           <motion.img
@@ -114,7 +114,18 @@ export default function ExperimentSection() {
               y: yPosAnim5,
             }}
             src="/images/image_05.jpeg"
-            className="absolute w-1/2 transform -translate-y-6"
+            className="absolute w-1/2"
+            alt=""
+          />
+          <motion.img
+            style={{
+              scale: scaleAnim,
+              rotateZ: zRotAnim5,
+              x: xPosAnim5,
+              y: yPosAnim5,
+            }}
+            src="/images/image_05.jpeg"
+            className="absolute w-1/2"
             alt=""
           />
         </div>
