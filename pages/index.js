@@ -22,11 +22,10 @@ export default function Home() {
         <HeroSection />
         <ResumeSection />
         <WorkSection />
-        <ExperimentSection />
       </main>
-      {/* <footer>
-        <Footer />
-      </footer> */}
+      <footer>
+        <ExperimentSection />
+      </footer>
     </div>
   );
 }

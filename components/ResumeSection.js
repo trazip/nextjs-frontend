@@ -4,7 +4,7 @@ import EducationItem from './EducationItem';
 export default function ResumeSection() {
   return (
     <div id="resume-section" className="pt-24 pb-12 text-obsidian-black">
-      <div id="wrapper" className="max-w-6xl mx-auto">
+      <div id="wrapper" className="max-w-5xl mx-auto">
         <div id="title" className="mb-16">
           <h2 className="relative z-20 text-5xl font-medium">Resume</h2>
           <svg

@@ -28,15 +28,14 @@ export default function WorkSection() {
           <div>
             <Project
               src="/images/project-image.png"
-              title="Jobriver"
-              description="Jobriver is a Polish employment platform. It often helps
-              developers to find a job that suits them easily by filtering!"
+              title="Wolfgang"
+              description="Wolfgang is a Ruby on Rails webapp enabling musicians to 
+              share and annotate in real time their music scores with other users."
             />
             <Project
               src="/images/project-image.png"
-              title="Jobriver"
-              description="Jobriver is a Polish employment platform. It often helps
-              developers to find a job that suits them easily by filtering!"
+              title="TailwindBnb"
+              description="TailwindBnb is a clone of Airbnb built using Ruby on Rails and tailwindcss."
             />
             {/* <a
               href="https://github.com/trazip"
@@ -49,15 +48,14 @@ export default function WorkSection() {
           <div className="pt-40">
             <Project
               src="/images/project-image.png"
-              title="Jobriver"
-              description="Jobriver is a Polish employment platform. It often helps
-              developers to find a job that suits them easily by filtering!"
+              title="OnePianist"
+              description="One Pianist is a Wordpress web app helping piano accompanists to manage their appointments with ease."
             />
             <Project
               src="/images/project-image.png"
-              title="Jobriver"
-              description="Jobriver is a Polish employment platform. It often helps
-              developers to find a job that suits them easily by filtering!"
+              title="MovieDB"
+              description="MovieDB is a Next.js app built on top of a rails API. Its uses 
+              Algolia instant-search for react to retrieve the movies."
             />
           </div>
         </div>
