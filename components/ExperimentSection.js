@@ -5,9 +5,17 @@ export default function ExperimentSection() {
   const ref = useRef();
   const { scrollYProgress } = useViewportScroll();
   const scaleAnim = useTransform(scrollYProgress, [0.8, 0.9, 1], [1, 1, 0.5]);
+
+  // rotate image 1 and 3
   const zRotAnim13 = useTransform(scrollYProgress, [0.8, 0.9, 1], [0, -0, -4]);
+
+  // rotate image 2
   const zRotAnim2 = useTransform(scrollYProgress, [0.8, 0.9, 1], [0, -0, 4]);
+
+  // rotate image $
   const zRotAnim4 = useTransform(scrollYProgress, [0.8, 0.9, 1], [0, -0, 3]);
+
+  // rotate image 5
   const zRotAnim5 = useTransform(scrollYProgress, [0.8, 0.9, 1], [0, -0, -8]);
 
   // image 1
@@ -117,56 +125,14 @@ export default function ExperimentSection() {
             className="absolute w-1/2"
             alt=""
           />
-          <motion.img
-            style={{
-              scale: scaleAnim,
-              rotateZ: zRotAnim5,
-              x: xPosAnim5,
-              y: yPosAnim5,
-            }}
-            src="/images/image_05.jpeg"
-            className="absolute w-1/2"
-            alt=""
-          />
+          <motion.div style={{}} className="absolute w-1/2">
+            <p>
+              Want to see more? Check out my social profiles to see more
+              designs, projects and things I’m currently working on.
+            </p>
+          </motion.div>
         </div>
       </div>
     </div>
   );
 }
-
-// {
-//   /* <img src="/images/image_01.jpeg" alt="project" />
-//           <img src="/images/image_02.jpeg" alt="project" /> */
-// }
-
-// {
-/* <motion.div
-            className="flex justify-center"
-            style={{
-              // scale: scaleAnim,
-              rotateZ: zRotAnim,
-              x: xPosAnim2,
-            }}
-          >
-            <img
-              src="/images/image_02.jpeg"
-              alt="project"
-              className="z-10 w-1/2"
-            />
-          </motion.div> */
-// }
-
-// <motion.div
-//   className="absolute inset-x-1/2"
-//   style={{
-//     // scale: scaleAnim,
-//     rotateZ: zRotAnim,
-//     y: yPosAnim1,
-//   }}
-// >
-//   <img src="/images/image_03.jpeg" alt="project" className="z-50 w-1/2" />
-// </motion.div>;
-// {
-//   /* <img src="/images/image_04.jpeg" alt="project" />
-//           <img src="/images/image_05.jpeg" alt="project" /> */
-// }
