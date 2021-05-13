@@ -70,7 +70,7 @@ export default function ExperimentSection() {
 
   return (
     <div id="experiment-section" ref={ref}>
-      <div className="relative flex items-center justify-center h-screen p-16 overflow-hidden bg-gray-800">
+      <div className="relative flex items-center justify-center h-screen p-16 overflow-hidden bg-gray-900">
         <div className="flex items-center justify-center">
           <motion.img
             style={{
@@ -78,8 +78,8 @@ export default function ExperimentSection() {
               rotateZ: zRotAnim13,
               y: yPosAnim1,
             }}
-            src="/images/image_01.jpeg"
-            className="absolute z-10 w-1/2"
+            src="/images/project_01.png"
+            className="absolute z-20 w-1/2 rounded-sm"
             alt=""
           />
           <motion.img
@@ -88,8 +88,8 @@ export default function ExperimentSection() {
               rotateZ: zRotAnim2,
               x: xPosAnim2,
             }}
-            src="/images/image_02.jpeg"
-            className="absolute z-10 w-1/2"
+            src="/images/project_02.png"
+            className="absolute z-10 w-1/2 rounded-sm"
             alt=""
           />
           <motion.img
@@ -99,8 +99,8 @@ export default function ExperimentSection() {
               x: xPosAnim3,
               y: yPosAnim3,
             }}
-            src="/images/image_03.jpeg"
-            className="absolute z-10 w-1/2"
+            src="/images/project_03.png"
+            className="absolute z-10 w-1/2 rounded-sm"
             alt=""
           />
           <motion.img
@@ -110,8 +110,8 @@ export default function ExperimentSection() {
               x: xPosAnim4,
               y: yPosAnim4,
             }}
-            src="/images/image_04.jpeg"
-            className="absolute z-10 w-1/2"
+            src="/images/project_04.png"
+            className="absolute z-10 w-1/2 rounded-sm"
             alt=""
           />
           <motion.img
@@ -121,8 +121,8 @@ export default function ExperimentSection() {
               x: xPosAnim5,
               y: yPosAnim5,
             }}
-            src="/images/image_05.jpeg"
-            className="absolute z-10 w-1/2"
+            src="/images/project_05.png"
+            className="absolute z-10 w-1/2 rounded-sm"
             alt=""
           />
           <div className="absolute z-0 w-1/4 mb-8 text-xl text-center text-white">
@@ -137,7 +137,7 @@ export default function ExperimentSection() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="p-4 bg-gray-900 rounded-full cursor-pointer">
+                <div className="p-4 bg-gray-600 rounded-full cursor-pointer">
                   <span
                     className="iconify"
                     data-icon="dashicons:linkedin"
@@ -150,7 +150,7 @@ export default function ExperimentSection() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="p-4 bg-gray-900 rounded-full cursor-pointer">
+                <div className="p-4 bg-gray-600 rounded-full cursor-pointer">
                   <span
                     className="iconify"
                     data-icon="akar-icons:github-fill"
@@ -163,7 +163,7 @@ export default function ExperimentSection() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <div className="p-4 bg-gray-900 rounded-full cursor-pointer">
+                <div className="p-4 bg-gray-600 rounded-full cursor-pointer">
                   <span
                     className="iconify"
                     data-icon="cib:codewars"
