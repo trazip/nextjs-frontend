@@ -15,11 +15,12 @@ export default function Home() {
       </Head>
       <header>
         <Navbar />
-        <HeroSection />
       </header>
-      <main />
-      <ResumeSection />
-      <WorkSection />
+      <main>
+        <HeroSection />
+        <ResumeSection />
+        <WorkSection />
+      </main>
       <footer>
         <Footer />
       </footer>

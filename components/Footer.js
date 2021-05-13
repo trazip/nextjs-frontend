@@ -17,6 +17,12 @@ export default function Footer() {
           >
             Linkedin
           </a>
+          <a
+            href="https://www.codewars.com/users/trazip"
+            className="px-6 cursor-pointer opacity-80 hover:opacity-100"
+          >
+            Codewars
+          </a>
         </div>
       </div>
     </div>

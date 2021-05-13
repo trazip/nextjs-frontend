@@ -18,9 +18,6 @@ export default function Navbar() {
             <a href="#" className="px-8 py-5">
               Experiments
             </a>
-            <a href="#" className="px-8 py-5">
-              Contact
-            </a>
           </div>
         </div>
       </div>
