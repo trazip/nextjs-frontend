@@ -16,6 +16,7 @@ module.exports = {
       },
       colors: {
         'obsidian-black': '#0d0e10',
+        'green-grass': '#5CBA88',
       },
     },
   },

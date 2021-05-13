@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import ExperimentSection from '../components/ExperimentSection';
 import Footer from '../components/Footer';
 import HeroSection from '../components/HeroSection';
 import Navbar from '../components/Navbar';
@@ -20,10 +21,11 @@ export default function Home() {
         <HeroSection />
         <ResumeSection />
         <WorkSection />
+        <ExperimentSection />
       </main>
-      <footer>
+      {/* <footer>
         <Footer />
-      </footer>
+      </footer> */}
     </div>
   );
 }
