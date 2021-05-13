@@ -69,8 +69,8 @@ export default function ExperimentSection() {
   );
 
   return (
-    <div ref={ref}>
-      <div className="relative flex items-center justify-center h-screen p-16 overflow-hidden bg-green-grass">
+    <div id="experiment-section" ref={ref}>
+      <div className="relative flex items-center justify-center h-screen p-16 overflow-hidden bg-gray-800">
         <div className="flex items-center justify-center">
           <motion.img
             style={{
@@ -79,7 +79,7 @@ export default function ExperimentSection() {
               y: yPosAnim1,
             }}
             src="/images/image_01.jpeg"
-            className="absolute w-1/2"
+            className="absolute z-10 w-1/2"
             alt=""
           />
           <motion.img
@@ -89,7 +89,7 @@ export default function ExperimentSection() {
               x: xPosAnim2,
             }}
             src="/images/image_02.jpeg"
-            className="absolute w-1/2"
+            className="absolute z-10 w-1/2"
             alt=""
           />
           <motion.img
@@ -100,7 +100,7 @@ export default function ExperimentSection() {
               y: yPosAnim3,
             }}
             src="/images/image_03.jpeg"
-            className="absolute w-1/2"
+            className="absolute z-10 w-1/2"
             alt=""
           />
           <motion.img
@@ -111,7 +111,7 @@ export default function ExperimentSection() {
               y: yPosAnim4,
             }}
             src="/images/image_04.jpeg"
-            className="absolute w-1/2"
+            className="absolute z-10 w-1/2"
             alt=""
           />
           <motion.img
@@ -122,15 +122,57 @@ export default function ExperimentSection() {
               y: yPosAnim5,
             }}
             src="/images/image_05.jpeg"
-            className="absolute w-1/2"
+            className="absolute z-10 w-1/2"
             alt=""
           />
-          <motion.div style={{}} className="absolute w-1/2">
-            <p>
-              Want to see more? Check out my social profiles to see more
-              designs, projects and things I’m currently working on.
+          <div className="absolute z-0 w-1/4 mb-8 text-xl text-center text-white">
+            <h5 className="mb-4 font-medium">Want to see more?</h5>
+            <p className="font-light">
+              Check out my Linkedin, Github or Codewars profiles to see what I’m
+              currently working on.
             </p>
-          </motion.div>
+            <div className="flex items-center mt-6 justify-evenly">
+              <a
+                href="https://www.linkedin.com/in/pierre-penhard/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="p-4 bg-gray-900 rounded-full cursor-pointer">
+                  <span
+                    className="iconify"
+                    data-icon="dashicons:linkedin"
+                    data-inline="false"
+                  />
+                </div>
+              </a>
+              <a
+                href="https://github.com/trazip"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="p-4 bg-gray-900 rounded-full cursor-pointer">
+                  <span
+                    className="iconify"
+                    data-icon="akar-icons:github-fill"
+                    data-inline="false"
+                  />
+                </div>
+              </a>
+              <a
+                href="https://www.codewars.com/users/trazip"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div className="p-4 bg-gray-900 rounded-full cursor-pointer">
+                  <span
+                    className="iconify"
+                    data-icon="cib:codewars"
+                    data-inline="false"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

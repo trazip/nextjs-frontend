@@ -15,7 +15,7 @@ export default function Navbar() {
             <a href="#work-section" className="px-8 py-5">
               Work
             </a>
-            <a href="#" className="px-8 py-5">
+            <a href="#experiment-section" className="px-8 py-5">
               Experiments
             </a>
           </div>
