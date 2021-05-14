@@ -23,7 +23,7 @@ export default function WorkSection() {
             />
           </svg>
         </div>
-        <div className="grid grid-cols-1 gap-10 px-6 md:grid-cols-2">
+        <div className="grid grid-cols-1 gap-10 px-6 sm:grid-cols-2">
           {/* first column */}
           <div>
             <Project
@@ -45,7 +45,7 @@ export default function WorkSection() {
             </a> */}
           </div>
           {/* second column */}
-          <div className="pt-40">
+          <div className="sm:pt-40">
             <Project
               src="/images/mockup_02.jpg"
               title="OnePianist"
