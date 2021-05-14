@@ -9,6 +9,7 @@ export default function Avatar() {
         alt="Picture of the author"
         width={160}
         height={160}
+        priority
         className="rounded-full"
       />
     </>
