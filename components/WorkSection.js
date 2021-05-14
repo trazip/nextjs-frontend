@@ -27,13 +27,13 @@ export default function WorkSection() {
           {/* first column */}
           <div>
             <Project
-              src="/images/mockup_01.jpg"
+              id="mockup_01_lcreqt"
               title="Wolfgang"
               description="Wolfgang is a Ruby on Rails webapp enabling musicians to 
               share and annotate in real time their music scores with other users."
             />
             <Project
-              src="/images/mockup_03.jpg"
+              id="mockup_03_zkyrzn"
               title="TailwindBnb"
               description="TailwindBnb is a clone of Airbnb built using Ruby on Rails and tailwindcss."
             />
@@ -47,12 +47,12 @@ export default function WorkSection() {
           {/* second column */}
           <div className="sm:pt-40">
             <Project
-              src="/images/mockup_02.jpg"
+              id="mockup_02_mnjmhs"
               title="OnePianist"
               description="One Pianist is a Wordpress web app helping piano accompanists to manage their appointments with ease."
             />
             <Project
-              src="/images/mockup_04.jpg"
+              id="mockup_04_djcnqb"
               title="MovieDB"
               description="MovieDB is a Next.js app built on top of a rails API. Its uses 
               Algolia instant-search for react to retrieve the movies."

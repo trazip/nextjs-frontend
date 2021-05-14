@@ -1,12 +1,20 @@
 import React from 'react';
+import { buildUrl } from 'cloudinary-build-url';
 import Image from 'next/image';
 
 // eslint-disable-next-line react/prop-types
-export default function Project({ src, title, description }) {
+export default function Project({ id, title, description }) {
+  const url = buildUrl(`/portfolio/${id}`, {
+    cloud: {
+      cloudName: 'dxoadkzaf',
+    },
+  });
+
+  console.log(url);
   return (
     <div className="mb-16 cursor-pointer group">
       <Image
-        src={src}
+        src={url}
         alt="Picture of the project"
         width={510}
         height={570}
