@@ -31,11 +31,13 @@ export default function WorkSection() {
               title="Wolfgang"
               description="Wolfgang is a Ruby on Rails webapp enabling musicians to 
               share and annotate in real time their music scores with other users."
+              url="https://github.com/trazip/Wolfgang"
             />
             <Project
               id="mockup_03_zkyrzn"
               title="TailwindBnb"
               description="TailwindBnb is a clone of Airbnb built using Ruby on Rails and tailwindcss."
+              url="https://github.com/trazip/TailBnB"
             />
             {/* <a
               href="https://github.com/trazip"
@@ -50,12 +52,14 @@ export default function WorkSection() {
               id="mockup_02_mnjmhs"
               title="OnePianist"
               description="One Pianist is a Wordpress web app helping piano accompanists to manage their appointments with ease."
+              url="https://onepianist.com/"
             />
             <Project
               id="mockup_04_djcnqb"
               title="MovieDB"
-              description="MovieDB is a Next.js app built on top of a rails API. Its uses 
-              Algolia instant-search for react to retrieve the movies."
+              description="MovieDB is a Next.js app built on top of a rails API. It uses 
+              Algolia's instant-search for react to retrieve the movies."
+              url="https://github.com/trazip/movie-db"
             />
           </div>
         </div>
