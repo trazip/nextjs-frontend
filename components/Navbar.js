@@ -2,7 +2,10 @@ import React from 'react';
 
 export default function Navbar() {
   return (
-    <div id="Navbar" className="flex items-center max-w-6xl py-8 mx-auto px-14">
+    <div
+      id="Navbar"
+      className="items-center hidden py-8 mx-auto sm:flex max-w-8xl px-14"
+    >
       <div
         id="container"
         className="flex items-stretch justify-between w-full mx-auto"

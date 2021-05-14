@@ -3,7 +3,7 @@ import Avatar from './Avatar';
 
 export default function HeroSection() {
   return (
-    <div id="hero-section" className="px-12">
+    <div id="hero-section" className="mx-4 mt-12 md:mt-0 sm:px-12">
       <div
         id="hero-wrapper"
         className="flex flex-col items-center justify-center max-w-3xl mx-auto"
@@ -18,7 +18,7 @@ export default function HeroSection() {
         </div>
         <h1
           id="hero-title"
-          className="mb-12 font-medium tracking-tight text-center text-7xl text-obsidian-black"
+          className="mb-12 text-5xl font-medium tracking-tight text-center md:text-7xl text-obsidian-black"
         >
           Building digital products, using Ruby on Rails.
         </h1>
