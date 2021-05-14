@@ -10,7 +10,6 @@ export default function Project({ id, title, description }) {
     },
   });
 
-  console.log(url);
   return (
     <div className="mb-16 cursor-pointer group">
       <Image

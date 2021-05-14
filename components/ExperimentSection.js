@@ -69,7 +69,7 @@ export default function ExperimentSection() {
   );
 
   return (
-    <div id="experiment-section" className="hidden lg:block" ref={ref}>
+    <div id="experiment-section" className="hidden md:block" ref={ref}>
       <div className="relative flex items-center justify-center h-screen p-16 overflow-hidden bg-gray-900">
         <div className="flex items-center justify-center">
           <motion.img
