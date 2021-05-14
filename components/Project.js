@@ -18,6 +18,7 @@ export default function Project({ id, title, description }) {
         alt="Picture of the project"
         width={510}
         height={570}
+        priority
         className="duration-500 transform group-hover:scale-110"
       />
       <div className="pt-6">
